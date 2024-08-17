@@ -7,11 +7,17 @@
             "password": "admin"
         }
     ],
-    "guests": [
+    "passengers": [
         {
-            "guestId": 1,
-            "guestname": "guest1",
-            "guestlastname": "lastname"
+            "passengerId": 1,
+            "passengername": "passenger1",
+            "passengerlastname": "lastname",
+            "gender": "M",
+            "identificationType": "CC",
+            "identificationNumber": "123456789",
+            "email": "passenger1@example.com",
+            "phoneNumber": "9876543210",
+            "ContactPhoneNumber": "8520963147"
         }
     ],
     "hotels": [
@@ -38,7 +44,9 @@
             "checkIn": "2023-08-17",
             "checkOut": "2023-08-30",
             "userQuantity": 1,
-            "targetLocation": "BOG"
+            "targetLocation": "BOG",
+            "emergencyContactFullname": "contact name",
+            "emergencyContactPhoneNumber": "8520963147"
         }
     ],
     "roomTypes": [
@@ -77,14 +85,38 @@
     "notificationTemplates": [
         {
             "notificacionTemplateId": 1,
-            "content": "booking reservation number:{{bookingId}} for guest: {{guestname}}"
+            "content": "booking reservation number: #{{bookingId}} for guest: {{passengername}}"
         }
     ],
     "notifications": [
         {
             "notificacionId": 1,
-            "content": "booking reservation number:1 for guest: name",
+            "content": "booking reservation number: #1 for passenger: name",
             "targetEmail": "admin@example.com"
+        }
+    ],
+    "genderType": [
+        {
+            "genderId": 1,
+            "description": "Male",
+            "code": "M"
+        },
+        {
+            "genderId": 2,
+            "description": "Female",
+            "code": "F"
+        }
+    ],
+    "identificationType": [
+        {
+            "indentificationTypeId": 1,
+            "description": "national document id",
+            "code": "CC"
+        },
+        {
+            "indentificationTypeId": 2,
+            "description": "Passport",
+            "code": "PP"
         }
     ]
 }
