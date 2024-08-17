@@ -95,7 +95,7 @@
             "targetEmail": "admin@example.com"
         }
     ],
-    "genderType": [
+    "genderTypes": [
         {
             "genderId": 1,
             "description": "Male",
@@ -107,7 +107,7 @@
             "code": "F"
         }
     ],
-    "identificationType": [
+    "identificationTypes": [
         {
             "indentificationTypeId": 1,
             "description": "national document id",
