@@ -1,0 +1,90 @@
+{
+    "users": [
+        {
+            "userId": 1,
+            "username": "admin",
+            "email": "admin@example.com",
+            "password": "admin"
+        }
+    ],
+    "guests": [
+        {
+            "guestId": 1,
+            "guestname": "guest1",
+            "guestlastname": "lastname"
+        }
+    ],
+    "hotels": [
+        {
+            "hotelId": 1,
+            "name": "poweredge hostel",
+            "active": true
+        }
+    ],
+    "rooms": [
+        {
+            "roomId": 1,
+            "type": "Single",
+            "available": 1,
+            "active": true,
+            "baseCost": 10000,
+            "taxes": 190,
+            "location": "CAL"
+        }
+    ],
+    "bookings": [
+        {
+            "bookingId": 1,
+            "checkIn": "2023-08-17",
+            "checkOut": "2023-08-30",
+            "userQuantity": 1,
+            "targetLocation": "BOG"
+        }
+    ],
+    "roomTypes": [
+        {
+            "roomTypeId": 1,
+            "value": "Single"
+        },
+        {
+            "roomTypeId": 2,
+            "value": "Double"
+        },
+        {
+            "roomTypeId": 3,
+            "value": "King"
+        }
+    ],
+    "taxes": [
+        {
+            "taxeId": 1,
+            "description": "iva",
+            "value": 19
+        }
+    ],
+    "location": [
+        {
+            "locationId": 1,
+            "description": "Cali",
+            "code": "CAL"
+        },
+        {
+            "locationId": 2,
+            "description": "Bogotá",
+            "code": "BOG"
+        }
+    ],
+    "notificationTemplates": [
+        {
+            "notificacionTemplateId": 1,
+            "content": "booking reservation number:{{bookingId}} for guest: {{guestname}}"
+        }
+    ],
+    "notifications": [
+        {
+            "notificacionId": 1,
+            "content": "booking reservation number:1 for guest: name",
+            "targetEmail": "admin@example.com"
+        }
+    ]
+}
