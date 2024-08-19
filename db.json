@@ -1,122 +1,122 @@
 {
-    "users": [
-        {
-            "userId": 1,
-            "username": "admin",
-            "email": "admin@example.com",
-            "password": "admin"
-        }
-    ],
-    "passengers": [
-        {
-            "passengerId": 1,
-            "passengername": "passenger1",
-            "passengerlastname": "lastname",
-            "gender": "M",
-            "identificationType": "CC",
-            "identificationNumber": "123456789",
-            "email": "passenger1@example.com",
-            "phoneNumber": "9876543210",
-            "ContactPhoneNumber": "8520963147"
-        }
-    ],
-    "hotels": [
-        {
-            "hotelId": 1,
-            "name": "poweredge hostel",
-            "active": true
-        }
-    ],
-    "rooms": [
-        {
-            "roomId": 1,
-            "type": "Single",
-            "available": 1,
-            "active": true,
-            "baseCost": 10000,
-            "taxes": 190,
-            "location": "CAL"
-        }
-    ],
-    "bookings": [
-        {
-            "bookingId": 1,
-            "checkIn": "2023-08-17",
-            "checkOut": "2023-08-30",
-            "userQuantity": 1,
-            "targetLocation": "BOG",
-            "emergencyContactFullname": "contact name",
-            "emergencyContactPhoneNumber": "8520963147"
-        }
-    ],
-    "roomTypes": [
-        {
-            "roomTypeId": 1,
-            "value": "Single"
-        },
-        {
-            "roomTypeId": 2,
-            "value": "Double"
-        },
-        {
-            "roomTypeId": 3,
-            "value": "King"
-        }
-    ],
-    "taxes": [
-        {
-            "taxeId": 1,
-            "description": "iva",
-            "value": 19
-        }
-    ],
-    "location": [
-        {
-            "locationId": 1,
-            "description": "Cali",
-            "code": "CAL"
-        },
-        {
-            "locationId": 2,
-            "description": "Bogotá",
-            "code": "BOG"
-        }
-    ],
-    "notificationTemplates": [
-        {
-            "notificacionTemplateId": 1,
-            "content": "booking reservation number: #{{bookingId}} for guest: {{passengername}}"
-        }
-    ],
-    "notifications": [
-        {
-            "notificacionId": 1,
-            "content": "booking reservation number: #1 for passenger: name",
-            "targetEmail": "admin@example.com"
-        }
-    ],
-    "genderTypes": [
-        {
-            "genderId": 1,
-            "description": "Male",
-            "code": "M"
-        },
-        {
-            "genderId": 2,
-            "description": "Female",
-            "code": "F"
-        }
-    ],
-    "identificationTypes": [
-        {
-            "indentificationTypeId": 1,
-            "description": "national document id",
-            "code": "CC"
-        },
-        {
-            "indentificationTypeId": 2,
-            "description": "Passport",
-            "code": "PP"
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@example.com",
+      "password": "admin"
+    }
+  ],
+  "passengers": [
+    {
+      "id": 1,
+      "passengername": "passenger1",
+      "passengerlastname": "lastname",
+      "gender": "M",
+      "identificationType": "CC",
+      "identificationNumber": "123456789",
+      "email": "passenger1@example.com",
+      "phoneNumber": "9876543210",
+      "ContactPhoneNumber": "8520963147"
+    }
+  ],
+  "hotels": [
+    {
+      "id": 1,
+      "name": "poweredge hostel",
+      "active": true
+    }
+  ],
+  "rooms": [
+    {
+      "id": 1,
+      "type": "Single",
+      "available": 1,
+      "active": true,
+      "baseCost": 10000,
+      "taxes": 190,
+      "location": "CAL"
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "checkIn": "2023-08-17",
+      "checkOut": "2023-08-30",
+      "userQuantity": 1,
+      "targetLocation": "BOG",
+      "emergencyContactFullname": "contact name",
+      "emergencyContactPhoneNumber": "8520963147"
+    }
+  ],
+  "roomTypes": [
+    {
+      "id": 1,
+      "value": "Single"
+    },
+    {
+      "id": 2,
+      "value": "Double"
+    },
+    {
+      "id": 3,
+      "value": "King"
+    }
+  ],
+  "taxes": [
+    {
+      "id": 1,
+      "description": "iva",
+      "value": 19
+    }
+  ],
+  "location": [
+    {
+      "id": 1,
+      "description": "Cali",
+      "code": "CAL"
+    },
+    {
+      "id": 2,
+      "description": "Bogotá",
+      "code": "BOG"
+    }
+  ],
+  "notificationTemplates": [
+    {
+      "id": 1,
+      "content": "booking reservation number: #{{bookingId}} for guest: {{passengername}}"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "content": "booking reservation number: #1 for passenger: name",
+      "targetEmail": "admin@example.com"
+    }
+  ],
+  "genderTypes": [
+    {
+      "id": 1,
+      "description": "Male",
+      "code": "M"
+    },
+    {
+      "id": 2,
+      "description": "Female",
+      "code": "F"
+    }
+  ],
+  "identificationTypes": [
+    {
+      "id": 1,
+      "description": "national document id",
+      "code": "CC"
+    },
+    {
+      "id": 2,
+      "description": "Passport",
+      "code": "PP"
+    }
+  ]
 }
