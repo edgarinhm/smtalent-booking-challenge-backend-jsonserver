@@ -31,13 +31,24 @@
     {
       "id": 1,
       "hotelId": 1,
+      "level": 5,
+      "type": "King",
+      "quantity": 9,
+      "active": false,
+      "baseCost": 194,
+      "taxes": 5,
+      "location": "MED"
+    },
+    {
+      "hotelId": 1,
       "level": 1,
       "type": "Single",
       "quantity": 1,
       "active": true,
-      "baseCost": 10000,
-      "taxes": 190,
-      "location": "CAL"
+      "baseCost": 40000,
+      "taxes": 19,
+      "location": "BOG",
+      "id": 2
     }
   ],
   "bookings": [
