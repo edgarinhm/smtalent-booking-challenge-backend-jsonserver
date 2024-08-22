@@ -25,6 +25,11 @@
       "id": 1,
       "name": "poweredge hostel",
       "active": true
+    },
+    {
+      "name": "paraiso hotel",
+      "active": true,
+      "id": 2
     }
   ],
   "rooms": [
@@ -49,6 +54,39 @@
       "taxes": 19,
       "location": "BOG",
       "id": 2
+    },
+    {
+      "hotelId": 1,
+      "level": 3,
+      "type": "Double",
+      "quantity": 17,
+      "active": true,
+      "baseCost": 50,
+      "taxes": 8,
+      "location": "BOG",
+      "id": 3
+    },
+    {
+      "hotelId": 1,
+      "level": 1,
+      "type": "Single",
+      "quantity": 1,
+      "active": true,
+      "baseCost": 40000,
+      "taxes": 19,
+      "location": "Cali",
+      "id": 4
+    },
+    {
+      "hotelId": 2,
+      "level": 10,
+      "type": "King",
+      "quantity": 20,
+      "active": true,
+      "baseCost": 100000,
+      "taxes": 19,
+      "location": "Medellín",
+      "id": 5
     }
   ],
   "bookings": [
