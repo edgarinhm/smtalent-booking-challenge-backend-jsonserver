@@ -30,8 +30,10 @@
   "rooms": [
     {
       "id": 1,
+      "hotelId": 1,
+      "level": 1,
       "type": "Single",
-      "available": 1,
+      "quantity": 1,
       "active": true,
       "baseCost": 10000,
       "taxes": 190,
