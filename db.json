@@ -74,7 +74,7 @@
       "active": true,
       "baseCost": 40000,
       "taxes": 19,
-      "location": "Cali",
+      "location": "CAL",
       "id": 4
     },
     {
@@ -85,7 +85,7 @@
       "active": true,
       "baseCost": 100000,
       "taxes": 19,
-      "location": "Medellín",
+      "location": "MED",
       "id": 5
     }
   ],
