@@ -30,6 +30,11 @@
       "name": "paraiso hotel",
       "active": true,
       "id": 2
+    },
+    {
+      "name": "hotel descanso eterno",
+      "active": true,
+      "id": 3
     }
   ],
   "rooms": [
@@ -87,6 +92,28 @@
       "taxes": 19,
       "location": "MED",
       "id": 5
+    },
+    {
+      "hotelId": 3,
+      "level": 1,
+      "type": "Single",
+      "quantity": 1,
+      "active": true,
+      "baseCost": 40000,
+      "taxes": 19,
+      "location": "Cali",
+      "id": 6
+    },
+    {
+      "hotelId": 3,
+      "level": 1,
+      "type": "King",
+      "quantity": 1,
+      "active": true,
+      "baseCost": 40000,
+      "taxes": 19,
+      "location": "CAL",
+      "id": 7
     }
   ],
   "bookings": [
