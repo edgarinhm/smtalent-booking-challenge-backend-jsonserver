@@ -121,8 +121,8 @@
       "id": 1,
       "checkIn": "2023-08-17",
       "checkOut": "2023-08-30",
-      "userQuantity": 1,
-      "targetLocation": "BOG",
+      "adultCount": 1,
+      "location": "BOG",
       "emergencyContactFullname": "contact name",
       "emergencyContactPhoneNumber": "8520963147"
     }
