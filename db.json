@@ -119,6 +119,7 @@
   "bookings": [
     {
       "id": 1,
+      "hotelId": 1,
       "checkIn": "2023-08-17",
       "checkOut": "2023-08-30",
       "adultCount": 1,
